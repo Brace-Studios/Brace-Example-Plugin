@@ -1,0 +1,13 @@
+{
+  "id": "example",
+  "name": "Example Plugin",
+  "version": "1.0.0",
+  "info": "A Example Plugin for Brace",
+  "main_class": "dev.dubhe.brace.example.Example",
+  "author": [
+    "Gugle"
+  ],
+  "website": "https://github.com/Dubhe-Studio/Brace-Example-Plugin",
+  "issue": "https://github.com/Dubhe-Studio/Brace-Example-Plugin/issues",
+  "source": "https://github.com/Dubhe-Studio/Brace-Example-Plugin"
+}

@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.8.0'
+}
+
+group maven_group
+version project_version
+
+repositories {
+    maven {
+        url "https://libraries.minecraft.net/"
+    }
+    maven {
+        url "https://maven.cjsah.net/"
+    }
+    mavenCentral()
+}
+
+dependencies {
+    implementation "dev.dubhe:Brace:${brace_version}"
+}
+
+java {
+    archivesBaseName = project.archives_base_name
+}
+
+jar {
+    from("LICENSE")
+}
+
+test {
+    useJUnitPlatform()
+}
